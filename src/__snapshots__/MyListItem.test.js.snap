@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyListItem should render correctly when no params 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+      "height": 70,
+    }
+  }
+>
+  <Image
+    source={undefined}
+    style={
+      Object {
+        "borderRadius": 5,
+        "height": 70,
+        "margin": 0,
+        "resizeMode": "contain",
+        "width": 70,
+      }
+    }
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "backgroundColor": "steelblue",
+      }
+    }
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "backgroundColor": "red",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`MyListItem should render correctly when params are passed 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+      "height": 70,
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      Object {
+        "borderRadius": 5,
+        "height": 70,
+        "margin": 0,
+        "resizeMode": "contain",
+        "width": 70,
+      }
+    }
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "backgroundColor": "steelblue",
+      }
+    }
+  >
+    test
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "backgroundColor": "red",
+      }
+    }
+  >
+    f00
+  </Text>
+</View>
+`;
